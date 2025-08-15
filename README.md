@@ -1,39 +1,49 @@
-# Autoloom-2
+# Autoloom
 
-**Version 2 by Cassandra Melax**
+**An intelligent AI writing companion that learns from your choices**
 
-An enhanced AI text generation and classification system with full sequence context attention and improved parameter controls. Fork of the original Autoloom with significant improvements to context handling and user interface.
+Autoloom is a sophisticated AI text generation system that helps you craft high-quality content through an iterative, guided process. Unlike traditional AI writing tools that generate once and stop, Autoloom creates multiple completions, scores them for quality, and builds upon your selections to maintain context and coherence throughout extended writing sessions.
 
-## What's New in Version 2
+## What Makes Autoloom Unique
 
-- **🔄 Full Sequence Context**: AI models now see the complete conversation history, not just the last completion
-- **🎛️ Enhanced Parameter Controls**: Clear labels and compact interface for all generation settings
-- **🖥️ Improved Terminal UI**: Better layout with visible parameter fields and clean design
-- **📚 Comprehensive Documentation**: Detailed parameter guides and troubleshooting sections
-- **⚡ Better Performance**: Enhanced error handling and retry logic for more reliable operation
+**🧠 Iterative Generation**: Generate multiple completions simultaneously, select the best one, and continue building from there
+**📈 Quality Scoring**: Automatic classification and ranking of generated text using configurable AI models  
+**🔄 Full Context Awareness**: Each generation sees the complete conversation history for coherent, contextual continuations
+**🎛️ Fine-Tuned Control**: Adjust temperature, token limits, generation counts, and timing to match your writing style
+**⚡ Multi-Model Support**: Work with OpenAI (GPT-4, GPT-3.5 Turbo Instruct) and Hyperbolic (Llama-405B) models
+**🖥️ Terminal-First Design**: Clean, keyboard-driven interface optimized for focused writing
 
-## Overview
+## Two Powerful Tools
 
-Autoloom consists of two main components:
+**LUI (Loom User Interface)** - The main interactive writing environment where you craft content through guided AI collaboration
 
-- **LUI (Loom User Interface)** - A terminal-based UI for interactive text generation with multiple AI models and quality scoring
-- **TUNI (TUning Interface)** - A tool for generating fine-tuning datasets to distinguish human vs AI-generated text
+**TUNI (TUning Interface)** - A specialized tool for creating fine-tuning datasets that help distinguish human from AI-generated text
 
-## Features
+## How It Works
 
-### LUI Features
-- **Multi-Model Support**: OpenAI (GPT-4 Base, GPT-3.5 Turbo Instruct, GPT-4.1) and Hyperbolic (Llama-405b)
-- **Quality Scoring**: Automatic classification and ranking of generated text
-- **Custom Classifiers**: Built-in quality classifier and custom style-specific classifiers (e.g., Cassandra Style)
-- **Interactive Generation**: Iterative text generation with full sequence context
-- **Configurable Parameters**: Temperature, max tokens, generation count, and more
-- **Terminal UI**: Clean, keyboard-driven interface with zoom support
+1. **Start with a prompt** - Enter your initial text or idea
+2. **Generate multiple options** - AI creates several different continuations 
+3. **Review and score** - Each option is automatically rated for quality and coherence
+4. **Select the best** - Choose your preferred continuation from the ranked results
+5. **Build iteratively** - The selected text becomes part of the context for the next generation
+6. **Maintain coherence** - Each new generation sees the full conversation history, ensuring consistency
 
-### TUNI Features  
-- **Dataset Generation**: Create fine-tuning datasets for human vs AI text classification
-- **Breakpoint Analysis**: Analyze text at multiple breakpoints for comprehensive coverage
-- **JSONL Output**: Generate properly formatted training data
-- **Configurable Context**: Adjustable token limits and completion counts
+## Core Capabilities
+
+**🎯 Smart Generation**
+- Multiple AI models (GPT-4, GPT-3.5 Turbo Instruct, Llama-405B)
+- Configurable parameters (temperature, tokens, generation count)
+- Full sequence context for coherent long-form content
+
+**📊 Quality Assessment** 
+- Automatic scoring and ranking of all generated options
+- Configurable classification models for different content types
+- Quality-first approach ensures only the best content continues
+
+**⚙️ Fine-Tuning Tools**
+- TUNI interface for creating human vs AI classification datasets
+- Breakpoint analysis for comprehensive training data
+- JSONL export for standard ML workflows
 
 ## Installation
 
