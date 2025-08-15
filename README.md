@@ -89,7 +89,7 @@ poetry run lui
 **Workflow:**
 1. Enter your initial prompt
 2. Select generation model (Llama-405b, GPT-4 Base, etc.)
-3. Select classification model (Default GPT-4, GPT-4.1, Cassandra Style)
+3. Select classification model (Default GPT-4, GPT-4.1)
 4. Adjust parameters (temperature, max tokens, generation count)
 5. Generate and review scored completions
 6. Select best completion to continue the sequence
@@ -184,7 +184,6 @@ The interface now shows labeled parameter fields with helpful descriptions:
 |-------|----------|-----|---------------|
 | gpt-4 | OpenAI | Chat | Default classifier |
 | gpt-4.1 | OpenAI | Chat | Uses "developer" role |
-| Cassandra Style | OpenAI | Chat | Custom style classifier |
 
 ---
 
@@ -277,8 +276,7 @@ autoloom/
 │   │   └── components/    # UI widgets
 │   └── models/            # AI model interfaces
 │       ├── generator.py   # Text generation
-│       ├── classifier.py  # Quality classification
-│       └── cassandra_classifier.py  # Custom style classifier
+│       └── classifier.py  # Quality classification
 ├── tuni/                  # TUning Interface
 │   ├── main.py           # TUNI entry point
 │   ├── tuner.py          # Fine-tuning dataset logic
@@ -290,9 +288,6 @@ autoloom/
 
 ### Testing
 ```bash
-# Test basic functionality
-python test_cassandra_classifier.py
-
 # Test sequence logic
 python test_sequence_logic.py
 ```
