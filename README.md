@@ -1,8 +1,10 @@
 # Autoloom 2
 
-autoloom is a program that allows you automatically navigate the latent space of base models.
-
 An improved version of [Autoloom](https://github.com/viemccoy/autoloom), with edits by Cassandra Melax.
+
+![Original Autoloom terminal interface](docs/images/autoloom-interface.png)
+
+*Original Autoloom interface (LUI v0.0.3), by Vie McCoy and Morpheus Systems.*
 
 ## Original description and credits
 
