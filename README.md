@@ -6,14 +6,6 @@ An improved version of [Autoloom](https://github.com/viemccoy/autoloom), with ed
 
 *Original Autoloom interface (LUI v0.0.3), by Vie McCoy and Morpheus Systems.*
 
-## Original description and credits
-
-> autoloom is a tool which uses a base model (or completion model) in tandem with a classifier to automatically steer text generation.
-
-Original website description, preserved in the [Autoloom page archive](https://tianmu.org/good-work-library/aquarian/mythomancy/spellware/autoloom).
-
-The original Autoloom was created by **Vie McCoy, Jessica Taylor, and Evan McMullen for Morpheus Systems**, as credited in the [upstream repository](https://github.com/viemccoy/autoloom). This repository is a modified version of that work.
-
 ## Version 2 edits
 
 Version 2 builds on the original with improvements to context handling, the terminal interface, and generation error handling:
